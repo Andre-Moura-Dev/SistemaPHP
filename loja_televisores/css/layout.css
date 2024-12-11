@@ -1,0 +1,170 @@
+﻿/* Estilos gerais */
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS para o layout do index.php */
+input {
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.list {
+	text-decoration: none;
+	color: black;
+}
+
+.aa {
+	text-decoration: none;
+	color: black;
+}
+
+.aaa {
+	text-decoration: none;
+	color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    color: white;
+}
+
+td {
+    color: white;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+button {
+    background-color: green; /* Cor de fundo verde */
+    color: white; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: 600; /* Peso da fonte */
+    padding: 10px 20px; /* Espaçamento interno (padding) */
+    border: none; /* Remove a borda padrão */
+    border-radius: 8px; /* Bordas arredondadas */
+    cursor: pointer; /* Alterar o cursor para indicar que é clicável */
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: green; /* Cor de fundo mais escura ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave ao passar o mouse */
+}
+
+button:active {
+    background-color: green; /* Cor de fundo mais escura quando pressionado */
+    transform: translateY(2px); /* Leve efeito de "pressionamento" */
+}
+
+button:focus {
+    box-shadow: 0 0 0 3px rgba(72, 209, 204, 0.5); /* Adiciona sombra ao botão quando ele está em foco */
+}
+
+/* Principal Container */
+#principal {
+    margin: 50px;
+    font-family: Arial, sans-serif;
+}
+
+/* TOPO */
+#topo {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Melhor uso do grid */
+    gap: 10px; /* Aumenta o espaçamento entre os itens */
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    justify-content: space-between;
+    background-color: black;
+	border: 3px solid white;
+}
+
+h1 {
+	color: white;
+}
+
+label {
+	color: white;
+}
+
+#logo h1 {
+    line-height: 1.2;
+    margin: 0;
+}
+
+#logo h4 {
+    line-height: 1.2;
+    word-spacing: 5px; /* Diminui o espaçamento */
+    text-align: right; /* Ajusta o alinhamento */
+}
+
+/* CONTEÚDO ESPECÍFICO */
+#conteudo_especifico {
+    padding: 20px;
+    margin: auto 100px; /* Ajuste da margem lateral para um espaçamento mais consistente */
+    text-align: center;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar a seção */
+}
+
+#conteudo_especifico h2 {
+    margin-bottom: 20px; /* Ajuste no espaçamento do título */
+}
+
+/* RODAPE */
+#rodape {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    margin: 20px auto 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    color: white;
+    justify-content: space-between;
+    background-color: black;
+}
+
+#rodape h6 {
+    line-height: 1.2;
+    word-spacing: 0px;
+    margin: 10px 0;
+    text-align: left; /* Melhor alinhamento */
+}
+
+/* Borda */
+.borda {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    #topo, #rodape {
+        grid-template-columns: 1fr; /* Alinha os itens em uma coluna em telas menores */
+    }
+
+    #conteudo_especifico {
+        margin: auto 20px; /* Ajusta margens laterais em dispositivos pequenos */
+    }
+
+    .borda {
+        padding: 8px; /* Ajusta o padding nas bordas */
+    }
+}

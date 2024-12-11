@@ -1,0 +1,33 @@
+.titulo {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #796676;
+}
+.postagem {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #903;
+}
+
+a:link
+	{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #903;
+	text-decoration:none;
+	}
+a:visited
+	{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #903;
+	text-decoration:none;
+	}
+a:hover
+	{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #796676;
+	text-decoration:none;
+	}
